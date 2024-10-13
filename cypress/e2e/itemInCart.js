@@ -3,8 +3,8 @@ import  LoginPage from './loginPage'
 
 Given('I am logged into Sauce Demo site', () => {
     LoginPage.visit()
-    LoginPage.fillusername('standard_user')
-    LoginPage.fillpassword('secret_sauce')
+    LoginPage.fillusername()
+    LoginPage.fillpassword()
     LoginPage.Submit()
   });
 
